@@ -1,0 +1,306 @@
+
+#oilwrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:50px;
+}
+
+#oilWrapper h1{
+    color:rgb(17, 60, 100);
+    font-size: 3rem;
+    width:fit-content;
+    margin-left:25px;
+    padding:20px 0px;
+    font-weight: 700;
+    
+    
+
+}
+#oilWrapper .oilinfo{
+    padding: 10px 0px;
+}
+#oilWrapper .status{
+    font-size: 1.2rem;
+    color: rgb(252, 193, 0);
+}
+
+#oilWrapper h2{
+    font-size: 1.7rem;
+    padding:20px 0px;
+    margin:0px;
+    padding-bottom: 40px;
+    color:rgb(17, 60, 100);
+}
+
+#oilWrapper .connection_wrapper{
+    display:flex;
+    width:fit-content;
+    flex-direction: row;
+}
+
+#oilWrapper .connection_wrapper label{
+    padding:5px 0px;
+    font-size: 0.9rem;
+    margin-right:10px;
+    color:rgb(17, 60, 100);
+    margin-top:15px;
+    
+}
+
+#oilWrapper .connection_wrapper input{
+    margin:10px 15px;
+    margin-left:0px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    
+}
+
+#oilWrapper .connection_wrapper div{
+    display: flex;
+    flex-direction: column;
+    margin-right:20px;
+}
+
+#orangeoilform{
+    align-items: center;
+    border:solid 1px rgb(112, 112, 112); 
+    padding:40px 50px;
+    padding-right:50px;
+    margin:40px 20px;
+    margin-right:40px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#orangeoilform #oilbutton{
+    background-color: rgb(33, 172, 45);
+    color:#fff;
+    border:none;
+    padding:7px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 3px 7px 4px rgba(176, 174, 176, 0.4);
+    margin:30px 0px;
+}
+#oilWrapper #current_connection_wrapper th{
+    text-align: left;
+    padding-right:15px;
+    height:50px;
+    color:rgb(17, 60, 100);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+#oilWrapper #current_connection_wrapper td{
+    padding-right:15px;
+    height:45px;
+}
+#oilWrapper #current_connection_wrapper #current_top_row{
+    padding-bottom: 20px;
+}
+
+#current_connection_wrapper tbody{
+    overflow: scroll;
+    max-height:500px;
+}
+
+#oilWrapper #current_connection_wrapper .oil_delete{
+    background-color: rgb(226, 8, 8);
+    color:#fff;
+    border:none;
+    padding:7px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 3px 7px 4px rgba(176, 174, 176, 0.4);;
+
+}
+#oilWrapper #current_connection_wrapper .oil_duplicate{
+    background-color: rgb(212, 138, 0);
+    color:#fff;
+    border:none;
+    padding:7px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 3px 7px 4px rgba(176, 174, 176, 0.4);;
+
+}
+#oilWrapper #current_connection_wrapper .oil_textnoback{
+    background-color: rgba(255, 255, 255, 0);
+    border:none;
+    
+}
+#oilWrapper #current_connection_wrapper .oil_linkinput{
+    width:300px;
+    
+}
+#oilWrapper #current_connection_wrapper .oil_checkbox{
+    border-radius: 0%;
+    padding:5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#oilWrapper #current_connection_wrapper .oil_update{
+    background-color: rgb(33, 172, 45);
+    color:#fff;
+    border:none;
+    padding:7px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 3px 7px 4px rgba(176, 174, 176, 0.4);
+
+}
+
+#current_connection_wrapper{
+    border:solid 1px rgb(112, 112, 112); 
+    padding:40px 50px;
+    padding-right:50px;
+    margin:40px 20px;
+    margin-right:40px;
+    min-height:700px;   
+    border-radius: 5px;
+    width:fit-content;
+    background-color: #fff;
+
+}
+
+
+#oilWrapper #featbutton{
+    border:none;
+    padding:30px;
+    background-color:rgb(239,152,24);
+    border-radius: 50%;
+    font-size: 1rem;
+    width:200px;
+    height:200px;
+    cursor: pointer;
+    font-weight: 700;
+    color: rgb(75, 75, 75);;
+}
+
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.linkforms{
+    opacity: 1;
+    transition: opacity 0.6s;
+    -webkit-transition: opacity 0.6s;
+    padding:20px;
+    padding-left:0px;
+    margin-top:15px;
+}
+
+#oilWrapper .link_locations{
+    border: solid 1px #000;
+    display:none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    overflow: scroll;
+    height:50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: #fff;
+    padding:40px;
+    z-index: 2000;
+    border-radius: 10px;
+
+}
+
+#oilWrapper .LLclose{
+    position: absolute;
+    top:10px;
+    right:10px;
+    font-size: 1rem;
+    color:rgb(17, 60, 100);
+    cursor: pointer;
+}
+
+#oilWrapper .LLopen{
+    font-size: 1rem;
+    color:rgb(17, 60, 100);
+    cursor: pointer;
+
+}
+
+#oilWrapper .link_locations a{
+    text-decoration: none;
+    color:rgb(38, 182, 232);
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#oilWrapper #page_analysis_wrapper{
+    border:solid 1px rgb(112, 112, 112); 
+    padding:40px 50px;
+    padding-right:50px;
+    margin:40px 20px;
+    margin-right:40px;
+    min-height:300px;   
+    border-radius: 5px;
+    width:fit-content;
+    background-color: #fff;
+}
+
+#oilWrapper #page_analysis_wrapper a{
+    text-decoration: none;
+    color:rgb(38, 182, 232);
+    font-size: 0.8rem;
+    color:black;
+
+}
+#oilWrapper #page_analysis_wrapper td{
+    padding:7px;
+}
+
+#oilWrapper #page_analysis_wrapper .highcell{
+    font-weight: 800;
+} 
+
+#oilWrapper .orangerow{
+    background-color:rgba(239, 153, 24, 0.158);
+}
+
+
+#oilWrapper .redrow{
+    background-color:rgba(238, 9, 9, 0.123);
+}
+
+#oilWrapper .greenrow{
+    background-color:rgba(9, 238, 20, 0.116);
+}
+
+#oilWrapper .dashicons-editor-unlink{
+    color:red;
+    font-size: 0.8rem;
+}
+
+#oilWrapper .dashicons-admin-links{
+    color:green;
+    font-size: 0.8rem;
+}
+
+#oilWrapper .dashicons-editor-help{
+    color:rgb(138, 138, 138);
+    font-size: 0.8rem;
+}
+
+#oilWrapper .ownurl{
+    color: rgb(44, 114, 180);
+}
